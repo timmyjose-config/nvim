@@ -7,6 +7,7 @@
 :set ruler tabstop=2 expandtab shiftwidth=2
 :set noendofline
 :set nofixendofline
+:set noswapfile
 
 " set leader and localleader explicitly
 ::let mapleader = "\\"
@@ -49,6 +50,9 @@
 
 :autocmd BufWrite *: Autoformat
 
+" Rust configuration
+:let g:rustfmt_autosave = 1
+
 " Zig configuration
 :let g:zig_fmt_autosave = 1
 :let g:zig_fmt_command = ['zig', 'fmt', '--color', 'off']
@@ -77,4 +81,5 @@
 :Plug 'jvoorhis/coq.vim'
 :Plug 'junegunn/vader.vim'
 :Plug 'timmyjose-projects/lox.vim'
+:Plug 'rust-lang/rust.vim'
 :call plug#end()
