@@ -77,9 +77,8 @@
 :Plug 'ervandew/supertab'
 :Plug 'neovimhaskell/haskell-vim'
 :Plug 'idris-hackers/idris-vim'
-:Plug 'udalov/kotlin-vim'
-:Plug 'jvoorhis/coq.vim'
 :Plug 'junegunn/vader.vim'
 :Plug 'timmyjose-projects/lox.vim'
 :Plug 'rust-lang/rust.vim'
+:Plug 'vmchale/ats-vim'
 :call plug#end()
